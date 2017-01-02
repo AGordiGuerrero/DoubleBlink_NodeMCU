@@ -15,6 +15,8 @@
 //
 ////////////////////////////////////////////////////////////////////////////////////
 
+// I edit this line for test of branching in Github
+
 // Arduino NodeMCU pin mapping
 #define D0 16
 #define D1 5 // I2C Bus SCL (clock)
@@ -52,6 +54,9 @@ void setup() {
 
 // the loop function runs over and over again forever
 void loop() {
+
+// I also edit this line for test of branching in Github
+
 
 // Timing the switch of LED1
   if(millis() - previousMillis_LED1 > LED1_change_time){
